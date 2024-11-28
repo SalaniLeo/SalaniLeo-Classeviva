@@ -6,18 +6,18 @@ Classeviva is one of the most used school registers in italy.
 
 ## What's working?
 
-- Login
-- User infos
-- Grades
-- Agenda
-- Absences
-- Notice board
+- Login - ok
+- User infos - ok
+- Grades - ok
+- Agenda - ok
+- Absences - ok
+- Notice board - can't download files
 
 ## To do things:
 
 - Notices
-- Grades per quadrimester
-- More, but I don't have time :(
+- Grades per quadrimester - working on it
+- More, but classeviva apis suck
 
 # Classeviva
 
@@ -35,4 +35,4 @@ Classeviva is one of the most used school registers in italy.
 # Note for anyone working at Spaggiari
 
 In all seriousness, please make this service better, It sucks to be like me and see things in other european states be a lot better than what we have here.
-Also, PLAEASE if you're going to make something as used as Classeviva make it opensource for the benefit of everyone, no one will ever help to build something for free if it's not opensource. Students like me can even improve the register experience if given the right developer tools, but I almost forgot, we are in italy and we are behind at least 30 years for everything.
+Also, PLEASE if you're going to make something as used as Classeviva make it opensource for the benefit of everyone, no one will ever help to build something for free if it's not opensource. Students like me can even improve the user experience if given the right developer tools, but I almost forgot, we are in italy and we are behind at least 30 years for everything.

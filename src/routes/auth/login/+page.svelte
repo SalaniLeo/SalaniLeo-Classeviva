@@ -1,7 +1,7 @@
 <script lang="ts">
     let username: String;
     let password: String;
-	export let form;
+	let { form } = $props()
 </script>
 
 <div class="content halign valign">
@@ -29,6 +29,12 @@
 </div>
 
 <style>
+    .button {
+        background-color:var(--accent-color-primary);
+    }
+    .button:hover {
+        background-color:var(--accent-color-secondary);
+    }
     .loginMessage {
         height: 20px;
     }

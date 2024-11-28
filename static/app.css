@@ -7,6 +7,7 @@
     --background-blurry: #24242469;
 
     --card-color: rgb(115, 52, 179);
+    --graph-color: rgba(101, 22, 179, 0.432);
 
     --under-color: #0e0e0e;
     --top-color: #24242469;
@@ -55,6 +56,7 @@
     --background-blurry: #ff9d9d80;
 
     --card-color: var(--accent-color-secondary);
+    --graph-color: rgba(255, 58, 58, 0.329);
 
     /* Used for shadows, under ui elements */
     --shadow-color-heavy: #0a0a0ace;
@@ -325,6 +327,11 @@
 		background-color: rgba(255, 0, 0, 0.6);
 		border: 2px solid var(--font-error-color);
 	}
+  .info {
+    backdrop-filter: blur(var(--background-blur-normal));
+		background-color: rgba(48, 121, 255, 0.6);
+		border: 2px solid var(--font-info-color);
+  }
 
   .okonhover:hover {
 		/* backdrop-filter: blur(var(--background-blur-normal)); */
@@ -510,8 +517,11 @@
   }
 
   @media screen and (max-width: 1200px) {
+    hide1 {
+      display: none !important;
+    }
     .hide1 * {
-      display: none;
+      display: none !important;
     }
   }
 
@@ -523,6 +533,14 @@
     display: unset;
   }
 }
+@media screen and (max-width: 720px) {
+  hide2 {
+    display: none !important;
+  }
+  .hide2 * {
+    display: none !important;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .page {
@@ -532,5 +550,11 @@
     border-radius: 0;
     width: unset;
     box-shadow: unset !important;
+  }
+  hide3 {
+    display: none !important;
+  }
+  .hide3 * {
+    display: none !important;
   }
 }
